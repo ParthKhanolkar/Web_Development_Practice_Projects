@@ -1,0 +1,82 @@
+body {
+    background-image: url(Images/background_image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#title-bar {
+    padding: 30px;
+    background-color: black;
+}
+
+#title-bar h1 {
+    color: aliceblue;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#header {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+#header h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#header h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-container {
+    will-change: auto;
+    width: fit-content;
+    margin: auto;
+}
+
+.image-container:hover .overlay {
+    opacity: 100%;
+}
+
+.image-container:hover .main-image {
+    opacity: 20%;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    top: 80%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+#content {
+    margin: auto;
+    color: white;
+    height: 700px;
+    width: 1200px;
+}
+
+#content h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+li {
+    font-size: 30px;
+    align-content: center;
+}
